@@ -1,0 +1,35 @@
+# Test script for Stable Difussion
+
+## Installation commands
+
+```
+git clone https://github.com/mariorojas/sdtest.git
+cd sdtest/
+python3 -m venv venv
+. ./venv/bin/active
+pip install -r requirements.txt
+```
+
+Make sure to get your [Stable Diffusion API key](https://platform.stability.ai/docs/getting-started/authentication) and set it in **main.py**
+
+```
+os.environ['STABILITY_KEY'] = 'your-stable-difussion-key'
+```
+
+To create an image, run the following:
+
+```
+python main.py
+# output: 2054418320.png
+```
+
+To create more than 1 image, increase `sample` values in **main.py**.
+
+Please consider this value can increase credit cost.
+
+```
+answers = stability_api.generate(
+    ...
+    samples=1
+)
+```
