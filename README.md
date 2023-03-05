@@ -1,4 +1,4 @@
-# Test script for Stable Difussion
+# Test script for Stable Diffusion
 
 ## Installation commands
 
@@ -23,7 +23,7 @@ python main.py
 # output: 2054418320.png
 ```
 
-To create more than 1 image, increase `sample` values in **main.py**.
+To create more than 1 image, increase `sample` value in **main.py**.
 
 Please consider this value can increase credit cost.
 
