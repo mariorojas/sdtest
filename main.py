@@ -7,7 +7,7 @@ from PIL import Image
 from stability_sdk import client
 
 os.environ['STABILITY_HOST'] = 'grpc.stability.ai:443'
-os.environ['STABILITY_KEY'] = 'your-stable-difussion-key'
+os.environ['STABILITY_KEY'] = 'your-stable-diffusion-key'
 
 stability_api = client.StabilityInference(
     key=os.environ['STABILITY_KEY'],
