@@ -13,7 +13,7 @@ pip install -r requirements.txt
 Make sure to get your [Stable Diffusion API key](https://platform.stability.ai/docs/getting-started/authentication) and set it in **main.py**
 
 ```
-os.environ['STABILITY_KEY'] = 'your-stable-difussion-key'
+os.environ['STABILITY_KEY'] = 'your-stable-diffusion-key'
 ```
 
 To create an image, run the following:
