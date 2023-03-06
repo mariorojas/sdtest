@@ -6,7 +6,7 @@
 git clone https://github.com/mariorojas/sdtest.git
 cd sdtest/
 python3 -m venv venv
-. ./venv/bin/active
+. venv/bin/activate
 pip install -r requirements.txt
 ```
 
